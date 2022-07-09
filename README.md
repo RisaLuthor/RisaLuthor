@@ -1,9 +1,8 @@
 - 👋 Hi, I’m @RisaLuthor
-- 👀 I’m interested in software engineering and creating new tech to help progress the world into a new era of technology.
-- 🌱 I’m currently learning Python, PHP, Java
-- 💞️ I’m looking to collaborate on my tech project.
-- 📫 How to reach me risa.luthor@gmail.com
-
+I am a SoftWare Engineering student at Colorado Technical University. 
+- I’m working towards my degree in Software Engineering and looking to hold a position within my field. My graduation date is 08/23.
+- 🌱 I’m currently learning the Full Stack Java Developer and C++. 
+- How to reach me [📫](https://www.linkedin.com/in/risaluthor/)
 <!---
 RisaLuthor/RisaLuthor is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
