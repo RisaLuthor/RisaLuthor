@@ -1,7 +1,6 @@
-- 👋 Hi, I’m RisaLuthor
-I am a Software Engineering student at Colorado Technical University. 
-- I’m working towards my degree in Software Engineering and looking to hold a position within my field. My graduation date is 08/23.
-- 🌱 I’m currently learning Python. 
+- 👋 Hi, I’m Risa Luthor
+I am a Software Engineering student at Colorado Technical University and about to start the masters program for software engineering. 
+- I’ve completed my degree in Software Engineering and looking to hold a position within my field. My graduation date was 07/23. 
 - How to reach me [📫](https://www.linkedin.com/in/risaluthor/)
 
 ---
