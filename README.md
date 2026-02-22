@@ -1,7 +1,7 @@
 # Risa Luthor
 
 **Applied AI & Enterprise Systems Engineer**  
-I design and build AI-centric software for real enterprise environments—focused on intelligent automation, governance-aware integration, and logic-heavy workflow reliability.
+I design and build AI-centric software for real enterprise environments focused on intelligent automation, governance-aware integration, and logic-heavy workflow reliability.
 
 ## What I build
 - **Enterprise AI integration**: LLM-assisted workflows that connect to structured systems safely
