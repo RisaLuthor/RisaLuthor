@@ -35,7 +35,6 @@ I build AI-centric, governance-aware software for real enterprise environments f
 <p align="center">
   <img src="assets/github_dark/1-repos-per-language.svg" height="180"/>
 </p>
----
 
 ## 🌍 Contact / Location
 
