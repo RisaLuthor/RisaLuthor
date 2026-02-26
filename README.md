@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/header-glow.svg" alt="header" />
+  <img src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/header-glow.svg" />
 </p>
 
 <p align="center">
-  <img src="assets/hero-architecture.svg" alt="architecture" />
+  <img src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/hero-architecture.svg" />
 </p>
 
 
