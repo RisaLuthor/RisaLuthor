@@ -1,9 +1,17 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/header-glow.svg" />
+  <img
+    src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/header-glow.svg"
+    alt="Luthor.Tech header"
+    width="100%"
+  />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/hero-architecture.svg" />
+  <img
+    src="https://raw.githubusercontent.com/RisaLuthor/RisaLuthor/main/assets/hero-architecture.svg"
+    alt="Luthor.Tech architecture"
+    width="100%"
+  />
 </p>
 
 
