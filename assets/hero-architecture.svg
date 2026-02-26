@@ -1,117 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#05060a"/>
-      <stop offset="1" stop-color="#0a0f1f"/>
+      <stop offset="0" stop-color="#05070C"/>
+      <stop offset="0.6" stop-color="#070B14"/>
+      <stop offset="1" stop-color="#0A1022"/>
     </linearGradient>
 
     <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#49a3ff"/>
-      <stop offset="1" stop-color="#7c3aed"/>
+      <stop offset="0" stop-color="#2D7DFF"/>
+      <stop offset="1" stop-color="#E6EEF7"/>
     </linearGradient>
 
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feColorMatrix in="blur" type="matrix"
+    <filter id="softGlow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feColorMatrix in="b" type="matrix"
         values="1 0 0 0 0
                 0 1 0 0 0
                 0 0 1 0 0
-                0 0 0 0.35 0" result="glow"/>
+                0 0 0 0.30 0" result="g"/>
       <feMerge>
-        <feMergeNode in="glow"/>
+        <feMergeNode in="g"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <style>
-      .title { font: 700 30px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #e6edf3; }
-      .sub { font: 500 15px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #9fb0c0; }
-      .label { font: 600 13px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #c9d4df; }
-      .muted { font: 500 12px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #93a4b6; }
-      .box { fill: rgba(255,255,255,0.04); stroke: rgba(255,255,255,0.14); stroke-width: 1.2; rx: 18; }
-      .wire { stroke: rgba(73,163,255,0.55); stroke-width: 2; fill: none; }
-      .wire2 { stroke: rgba(124,58,237,0.45); stroke-width: 2; fill: none; }
-      .chip { fill: rgba(73,163,255,0.12); stroke: rgba(73,163,255,0.55); stroke-width: 1.2; rx: 12; }
-      .node { fill: rgba(124,58,237,0.12); stroke: rgba(124,58,237,0.55); stroke-width: 1.2; rx: 12; }
-      .pill { fill: rgba(255,255,255,0.06); stroke: rgba(255,255,255,0.12); stroke-width: 1; rx: 999; }
+      .title { font: 800 28px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #E9F1FA; }
+      .sub   { font: 500 15px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #9FB4C8; }
+      .label { font: 700 13px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #D3E2F2; }
+      .muted { font: 500 12px ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #7F95AA; }
+      .box   { fill: rgba(255,255,255,0.04); stroke: rgba(230,238,247,0.16); stroke-width: 1.2; rx: 18; }
+      .chip  { fill: rgba(45,125,255,0.10); stroke: rgba(45,125,255,0.45); stroke-width: 1.2; rx: 12; }
+      .silver{ fill: rgba(230,238,247,0.06); stroke: rgba(230,238,247,0.20); stroke-width: 1.1; rx: 12; }
+      .wire  { stroke: rgba(45,125,255,0.62); stroke-width: 2.2; fill: none; }
+      .dot   { fill: #2D7DFF; }
+      .pill  { fill: rgba(255,255,255,0.06); stroke: rgba(230,238,247,0.14); stroke-width: 1; rx: 999; }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect x="0" y="0" width="1200" height="340" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
 
   <!-- Subtle grid -->
-  <g opacity="0.12">
-    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200" stroke="#ffffff" stroke-width="1"/>
-    <path d="M120 0 V340 M240 0 V340 M360 0 V340 M480 0 V340 M600 0 V340 M720 0 V340 M840 0 V340 M960 0 V340 M1080 0 V340" stroke="#ffffff" stroke-width="1"/>
+  <g opacity="0.10">
+    <path d="M0 72 H1200 M0 144 H1200 M0 216 H1200 M0 288 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M120 0 V360 M240 0 V360 M360 0 V360 M480 0 V360 M600 0 V360 M720 0 V360 M840 0 V360 M960 0 V360 M1080 0 V360" stroke="#ffffff" stroke-width="1"/>
   </g>
 
-  <!-- Header text -->
-  <g transform="translate(56,42)">
-    <text class="title">Enterprise AI Systems — Observability & Governance Architecture</text>
-    <text class="sub" y="30">Telemetry • Policy Controls • Deterministic Workflows • Secure Integration</text>
+  <!-- Header -->
+  <g transform="translate(56,46)">
+    <text class="title">Luthor.Tech — Observability & Governance Blueprint</text>
+    <text class="sub" y="30">instrumentation • structured events • auditability • secure integration</text>
 
     <g transform="translate(0,54)">
-      <rect class="pill" x="0" y="0" width="210" height="28"/>
-      <text class="muted" x="14" y="19">FastAPI • Python • CI • Docker</text>
+      <rect class="pill" x="0" y="0" width="240" height="30"/>
+      <text class="muted" x="14" y="20">FastAPI • Middleware • Metrics</text>
 
-      <rect class="pill" x="226" y="0" width="220" height="28"/>
-      <text class="muted" x="240" y="19">Metrics • Events • Audit Trails</text>
+      <rect class="pill" x="256" y="0" width="240" height="30"/>
+      <text class="muted" x="270" y="20">Token Gates • Audit Trails</text>
 
-      <rect class="pill" x="462" y="0" width="250" height="28"/>
-      <text class="muted" x="476" y="19">Redaction • Least Privilege • Safety</text>
+      <rect class="pill" x="512" y="0" width="272" height="30"/>
+      <text class="muted" x="526" y="20">Deterministic Logic • CI</text>
     </g>
   </g>
 
-  <!-- Architecture boxes -->
   <!-- Left: Clients -->
-  <g filter="url(#softGlow)" transform="translate(60,135)">
-    <rect class="box" x="0" y="0" width="230" height="150"/>
+  <g filter="url(#softGlow)" transform="translate(60,156)">
+    <rect class="box" x="0" y="0" width="240" height="160"/>
     <text class="label" x="18" y="28">Clients</text>
-    <rect class="chip" x="18" y="44" width="194" height="32"/>
-    <text class="muted" x="32" y="65">Dashboards / Operators</text>
-    <rect class="chip" x="18" y="86" width="194" height="32"/>
-    <text class="muted" x="32" y="107">CLI / Automation Jobs</text>
-    <rect class="chip" x="18" y="128" width="194" height="32"/>
-    <text class="muted" x="32" y="149">External Systems</text>
+
+    <rect class="chip" x="18" y="48" width="204" height="34"/>
+    <text class="muted" x="32" y="70">Ops Dashboard UI</text>
+
+    <rect class="chip" x="18" y="92" width="204" height="34"/>
+    <text class="muted" x="32" y="114">CLI / Jobs</text>
+
+    <rect class="chip" x="18" y="136" width="204" height="34"/>
+    <text class="muted" x="32" y="158">External Services</text>
   </g>
 
   <!-- Middle: API -->
-  <g filter="url(#softGlow)" transform="translate(330,122)">
-    <rect class="box" x="0" y="0" width="300" height="178"/>
+  <g filter="url(#softGlow)" transform="translate(340,140)">
+    <rect class="box" x="0" y="0" width="320" height="192"/>
     <text class="label" x="18" y="28">Observability API</text>
-    <rect class="node" x="18" y="44" width="264" height="34"/>
-    <text class="muted" x="32" y="66">Middleware: latency + status capture</text>
-    <rect class="node" x="18" y="88" width="264" height="34"/>
-    <text class="muted" x="32" y="110">GET /metrics • GET /health</text>
-    <rect class="node" x="18" y="132" width="264" height="34"/>
-    <text class="muted" x="32" y="154">POST /events (token protected)</text>
+
+    <rect class="silver" x="18" y="50" width="284" height="38"/>
+    <text class="muted" x="32" y="74">Middleware: latency + status capture</text>
+
+    <rect class="silver" x="18" y="98" width="284" height="38"/>
+    <text class="muted" x="32" y="122">GET /health • GET /metrics</text>
+
+    <rect class="silver" x="18" y="146" width="284" height="38"/>
+    <text class="muted" x="32" y="170">POST /events (token protected)</text>
   </g>
 
   <!-- Right: Stores -->
-  <g filter="url(#softGlow)" transform="translate(670,135)">
-    <rect class="box" x="0" y="0" width="470" height="150"/>
-    <text class="label" x="18" y="28">Stores / Signals</text>
+  <g filter="url(#softGlow)" transform="translate(700,156)">
+    <rect class="box" x="0" y="0" width="440" height="160"/>
+    <text class="label" x="18" y="28">Signals / Stores</text>
 
-    <rect class="chip" x="18" y="44" width="210" height="44"/>
-    <text class="muted" x="32" y="68">In-memory Metrics Store</text>
-    <text class="muted" x="32" y="86">route • method • status • latency</text>
+    <rect class="chip" x="18" y="48" width="196" height="48"/>
+    <text class="muted" x="32" y="72">Metrics Store</text>
+    <text class="muted" x="32" y="90">route • method • status • latency</text>
 
-    <rect class="chip" x="242" y="44" width="210" height="44"/>
-    <text class="muted" x="256" y="68">Events DB (SQLite)</text>
-    <text class="muted" x="256" y="86">structured operational events</text>
+    <rect class="chip" x="228" y="48" width="194" height="48"/>
+    <text class="muted" x="242" y="72">Events DB (SQLite)</text>
+    <text class="muted" x="242" y="90">structured operational events</text>
 
-    <rect class="chip" x="18" y="98" width="434" height="48"/>
-    <text class="muted" x="32" y="122">Governance Patterns (design goal)</text>
-    <text class="muted" x="32" y="140">audit trail • redaction • least privilege output</text>
+    <rect class="silver" x="18" y="106" width="404" height="54"/>
+    <text class="muted" x="32" y="130">Governance Patterns</text>
+    <text class="muted" x="32" y="148">audit trails • redaction • least-privilege output</text>
   </g>
 
   <!-- Wires -->
-  <path class="wire" d="M290 210 C315 210, 315 210, 330 210"/>
-  <path class="wire2" d="M630 210 C655 210, 655 210, 670 210"/>
-  <circle cx="330" cy="210" r="4" fill="#49a3ff"/>
-  <circle cx="670" cy="210" r="4" fill="#7c3aed"/>
+  <path class="wire" d="M300 236 C322 236, 325 236, 340 236"/>
+  <path class="wire" d="M660 236 C680 236, 684 236, 700 236"/>
+  <circle class="dot" cx="340" cy="236" r="4"/>
+  <circle class="dot" cx="700" cy="236" r="4"/>
 
   <!-- Footer -->
-  <text class="muted" x="56" y="326">RisaLuthor • portfolio-grade backend patterns • observability-first engineering</text>
+  <text class="muted" x="56" y="346">electric blue telemetry • silver governance • graphite infrastructure</text>
 </svg>
