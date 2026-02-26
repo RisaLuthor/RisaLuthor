@@ -1,19 +1,40 @@
 # Risa Luthor
 
-**Applied AI & Enterprise Systems Engineer**  
+**Applied AI & Enterprise Systems Engineer**
+
 I build AI-centric, governance-aware software for real enterprise environments focused on intelligent automation, secure integration, and logic-heavy workflow reliability.
 
-## What I focus on
-- **Enterprise AI integration**: LLM-assisted workflows that connect to structured systems safely
-- **Intelligent automation**: rule-driven pipelines, exception handling, and operational tooling
-- **Security-minded design**: redaction, auditing, and controlled data handling patterns
+---
 
-## Featured work (see pinned repositories)
-- **Enterprise AI Operations Assistant** — AI-assisted reasoning + structured actions for enterprise operations
-- **Secure AI Gateway** — governance layer for safe AI usage (policy controls, logging, redaction)
-- **AI Business Logic Analyzer** — identifies rule conflicts, drift, and edge-case risk
-- **Persistent AI Memory Engine** — long-horizon context architecture for assistant continuity
+## 🔬 What I Focus On
 
-## Contact / location
-- Portfolio: https://www.rmluthor.us
-- Remote-first • Relocating to Virginia
+• **Enterprise AI Integration** — LLM-assisted workflows connected to structured systems safely  
+• **Intelligent Automation** — Rule-driven pipelines, exception handling, operational tooling  
+• **Security-Minded Design** — Redaction, auditing, controlled data handling patterns  
+
+---
+
+## 🚀 Featured Work  
+*(See pinned repositories)*
+
+• **Enterprise AI Operations Assistant** — AI-assisted reasoning + structured actions  
+• **Secure AI Gateway** — Governance layer (policy controls, logging, redaction)  
+• **AI Business Logic Analyzer** — Rule conflict & drift detection  
+• **Persistent AI Memory Engine** — Long-horizon assistant continuity architecture  
+
+---
+
+## 📊 GitHub Activity
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=RisaLuthor&show_icons=true&theme=tokyonight" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RisaLuthor&layout=compact&theme=tokyonight" height="165" />
+</p>
+
+---
+
+## 🌍 Contact / Location
+
+**Portfolio:** https://www.rmluthor.us  
+
+Remote-first • Relocating to Virginia
