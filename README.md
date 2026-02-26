@@ -26,11 +26,15 @@ I build AI-centric, governance-aware software for real enterprise environments f
 
 ## 📊 GitHub Activity
 
-<p align="left">
-  <img src="assets/github_dark/0-profile-details.svg" height="170" />
-  <img src="assets/github_dark/1-repos-per-language.svg" height="170" />
+<p align="center">
+  <img src="assets/github_dark/0-profile-details.svg" height="190"/>
 </p>
 
+<br>
+
+<p align="center">
+  <img src="assets/github_dark/1-repos-per-language.svg" height="180"/>
+</p>
 ---
 
 ## 🌍 Contact / Location
