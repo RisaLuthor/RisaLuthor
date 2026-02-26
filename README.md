@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/header-glow.svg" alt="header" />
+</p>
+
+<p align="center">
+  <img src="assets/hero-architecture.svg" alt="architecture" />
+</p>
+
+
+
 # Risa Luthor
 
 **Applied AI & Enterprise Systems Engineer**
